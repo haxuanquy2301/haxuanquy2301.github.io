@@ -1,0 +1,43 @@
+h1 {
+  font-size: 50px;
+}
+.home {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+.home .main-menu {
+  list-style: none;
+  padding: 0;
+ } 
+
+ .home .main-menu .menu {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin: 3px;
+  width: 500px;
+  display: inline-block;
+  overflow: hidden;
+ }
+
+.home .main-menu .menu:hover {
+   border: 6px solid orange;
+   opacity: 0.5;
+}
+.home .main-menu .menu img {
+   width: 100%;
+   opacity: 1;
+   transition: opacity 1s linear;
+}
+.home .main-menu .menu .name {
+   color: orange;
+   font-size: 30px;
+   text-decoration: none;
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+   margin-bottom: 5px;
+}
+.home .main-menu .menu .name:hover {
+  text-decoration: underline;
+  }
